@@ -1,12 +1,12 @@
 import React from "react";
-import "./home/Home.css";
+import "./Books";
 
-export default function Home(){
+export default function Books(){
     return (
-    <div className="Home">
-        <div className="lander">>
-            <h1>Home</h1>
-            <p>Welcome to Fisher Bookstore.</p>
+    <div className="Books">
+        <div className="lander">
+            <h1>Books</h1>
+            <p>Check back soon for more books!</p>
         </div>
     </div>
     );
