@@ -10,14 +10,12 @@ export default function Authors(props){
         .then(response => response.json())
         .then(data => setData(data));
     }, []);
-    
-    render(){
-        return (
+    return (
     <div className="Authors">
         <div className="lander">
             <AuthorDisplay authors={data} />
         </div>
     </div>
     );
-}
+
 }
