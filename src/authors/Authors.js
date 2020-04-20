@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { useEffect, useState} from "react";
 import "./Authors";
 import { AuthorDisplay } from "./AuthorDisplay.js";
 
