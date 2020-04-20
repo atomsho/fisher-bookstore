@@ -11,7 +11,6 @@ export default function Books(props){
         .then(data => setData(data));
     }, []);
 
-    render(){
         return (
             <div className="Books">
                 <div className="lander">
@@ -20,4 +19,4 @@ export default function Books(props){
             </div>
     );
 }
-}
+
